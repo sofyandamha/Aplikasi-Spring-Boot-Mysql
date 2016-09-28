@@ -1,16 +1,16 @@
 # aplikasi-spring-boot-mysql
 membuat aplikasi dengan spring boot menggunakan database MySql
 
+## Build tools yang digunakan menggunakan:
+ Maven version 3.3.9
 
---- build tools yang digunakan menggunakan:
-    - Maven version 3.3.9
-    
---- Framework :
-    -Spring-boot
+## Framework
+    -Spring Boot
     -Spring MVC
     -Spring Security
     -Jasper Report
     
---- Design Template :
+## Templates
     -Thymeleaf
-    -bootstrap 
+    -Bootstrap
+ 
