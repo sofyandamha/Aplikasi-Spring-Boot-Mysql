@@ -1,0 +1,16 @@
+com\damha\pelatihan\entity\Sesi.class
+com\damha\pelatihan\controller\HaloController.class
+com\damha\pelatihan\config\Security.class
+com\damha\pelatihan\controller\PesertaController.class
+com\damha\pelatihan\dao\SesiDao.class
+com\damha\pelatihan\KonfigurasiWeb.class
+com\damha\pelatihan\controller\MateriReportController.class
+com\damha\pelatihan\controller\PesertaHtmlController.class
+com\damha\pelatihan\NewClass.class
+com\damha\pelatihan\entity\Peserta.class
+com\damha\pelatihan\AplikasiTutorialSpringApplication.class
+com\damha\pelatihan\controller\MateriController.class
+com\damha\pelatihan\config\CrsfAttributeToCookieFilter.class
+com\damha\pelatihan\dao\MateriDao.class
+com\damha\pelatihan\entity\Materi.class
+com\damha\pelatihan\dao\PesertaDao.class

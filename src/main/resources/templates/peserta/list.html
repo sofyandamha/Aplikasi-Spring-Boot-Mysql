@@ -1,0 +1,38 @@
+
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>TODO supply a title</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+     <body>
+        <h1>Daftar Peserta</h1>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Email</th>
+                    <th>Tanggal Lahir</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="p: ${daftarPeserta}">
+                    <td th:text="${p.nama}">sofyan</td>
+                    <td th:text="${p.email}">SofyanDamha@gmail.com</td>
+                    <td th:text="${p.tanggalLahir}">2015-01-01</td>
+                    <td>
+                        <a href="form.html" th:href="@{/peserta/form(id=${p.id})}">  Edit  </a> || 
+                        <a href="add.html" th:href="@{/peserta/add}">  Add </a>||
+                        <a href="form.html" th:href="@{/peserta/hapus(id=${p.id})}">  Hapus  </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+    </body>
+</html>
+
+    
